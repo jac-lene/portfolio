@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import CarouselComp from '../Components/CarouselComp'
 
-import Raccoon from '../Images/1.png'
 
 function Home() {
 
