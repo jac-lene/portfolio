@@ -15,7 +15,22 @@ MVPs
     DONE
     - Customized URL
 
-
 Stretch Goals: 
 - Scrolling site
-- 
+
+Navigation
+- Need About 
+- Need Contact
+- Maybe add footer
+- Links to Social Media
+
+Home
+- Responsive
+- more styling
+
+Work
+- Responsive
+- Get images added
+- Link to see more pages
+
+See More pages

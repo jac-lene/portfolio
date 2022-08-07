@@ -1,3 +1,30 @@
+a {
+  text-decoration: none;
+  color: #707d7d;
+}
+
+a:hover {
+  color: #2C3131;
+}
+
+.about-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-img {
+  /* border: 2px solid #707d7d; */
+  width: 600px;
+}
+
+.about-txt {
+  /* border: 2px solid #707d7d; */
+  width: 600px;
+}
+
 .App {
   text-align: center;
   color: #2C3131;
@@ -42,6 +69,10 @@ nav {
   gap: 30px;
 }
 
+.spacer {
+  height: 50px;
+}
+
 .work-cont {
   display: flex;
   flex-direction: row-reverse;
@@ -53,10 +84,11 @@ nav {
 }
 
 .work-name {
+  border: 2px solid #707d7d;
   text-align: center;
   height: 600px;
   width: 300px;
-  border: 2px solid #707d7d;
+  padding-top: 30px;
 }
 
 .work-img {
