@@ -18,7 +18,7 @@ function Socklab() {
         Front
         </a>
         {" / "}
-        <a href='Sock-Lab-Backend' target="_blank" rel="noreferrer noopener">
+        <a href='https://github.com/jac-lene/Sock-Lab-Backend' target="_blank" rel="noreferrer noopener">
         Back
         </a>
       </h5>
