@@ -18,6 +18,7 @@ a:hover {
 .about-img {
   /* border: 2px solid #707d7d; */
   width: 600px;
+  filter: drop-shadow(0px 0px 10px rgb(200, 200, 200)); 
 }
 
 .about-txt {
@@ -33,7 +34,7 @@ a:hover {
 .carousel {
   width:600px;
   height:500px;
-  filter: drop-shadow(0px 0px 10px rgb(166, 165, 165)); 
+  filter: drop-shadow(0px 0px 10px rgb(200, 200, 200)); 
 }
 
 .center {
@@ -68,6 +69,16 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   gap: 30px;
+}
+
+.sock-img {
+  height: 700px;
+}
+
+.sock-txt {
+  margin: 0 auto;
+  width: 70vw;
+  text-align: justify;
 }
 
 .spacer {
