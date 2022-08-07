@@ -9,6 +9,7 @@ import Align from './Pages/Align';
 import Gyst from './Pages/Gyst';
 import Raccoons from './Pages/Raccoons';
 import About from './Pages/About';
+import Contact from './Pages/Contact';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/work/gyst" element={<Gyst />} />
         <Route path="/work/raccoons" element={<Raccoons />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
     </div>
