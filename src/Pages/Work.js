@@ -1,9 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Image } from 'react-bootstrap'
+
+import Sock from '../Images/Work/sock.png'
 
 function Work() {
   return (
     <div className='center'>
+
+            <div className='spacer'></div>
+            {/* <div className='spacer'></div> */}
+
         <div className='work-cont'>
             <div className='work-name'>
                 <h3 className='work-title'>SockLab Customizer</h3>
@@ -12,9 +19,7 @@ function Work() {
                 <button>See More</button>
             </div>
 
-            <div className='work-img'>
-
-            </div>
+            <Image src={Sock} className='work-sockimg' rounded fluid/>
         </div>
 
 <div className='spacer'></div>
@@ -62,6 +67,9 @@ function Work() {
 
             </div>
         </div>
+
+        <div className='spacer'></div>
+        <div className='spacer'></div>
       
         </div>
   )

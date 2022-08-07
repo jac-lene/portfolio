@@ -3,7 +3,7 @@ import Image from 'react-bootstrap/Image'
 
 import Raccoon from '../Images/rac.png'
 import Gyst from '../Images/gyst.png'
-import Sock from '../Images/sock.png'
+import Sock from '../Images/Work/sock.png'
 
 
 function CarouselComp() {
