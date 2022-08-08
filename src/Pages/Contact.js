@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
+import Overlay from 'react-bootstrap/Overlay';
+
 import Resume from '../Images/Resume.pdf'
 
 function Contact() {
+
+  const [show, setShow] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const target = useRef(null);
+
+  const text = 'jaclenesini@gmail.com'
+
+  const copy = () => {
+    navigator.clipboard.writeText(text)
+    setCopied(!copied)
+  }
+
+
   return (
     <div className='center'>
+        <div className='spacer'></div>
         <div className='spacer'></div>
         <div className='spacer'></div>
         <div>
@@ -14,11 +30,29 @@ function Contact() {
                 <br/>
 
             <h4>I'm currently seeking full time work and freelance opportunities.</h4>
-            <h4>Send me a message!</h4>
+            <h4>Send me a <div onClick={() => {setShow(!show); setCopied(false)}} className='message'>message</div>!</h4> 
+            
+            {show && <div> <h4>Tap to copy: <div className='message' ref={target} onClick={copy}>{text}</div> </h4> </div>}
 
+            <Overlay target={target.current} show={copied} placement="right"> 
+        {({ placement, arrowProps, show: _show, popper, ...props }) => (
+          <div
+            {...props}
+            style={{
+              position: 'absolute',
+              backgroundColor: '#2C3131',
+              padding: '2px 10px',
+              color: 'white',
+              borderRadius: 3,
+              ...props.style,
+            }}
+          >
+            Copied!
+          </div>
+        )}
+      </Overlay>
 
         </div>
-        
         </div>
   )
 }

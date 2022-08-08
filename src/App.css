@@ -61,6 +61,22 @@ a:hover {
   align-items: center;
 }
 
+.link-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.message {
+  display: inline;
+  color: #707d7d;
+}
+  
+.message:hover {
+    color: #2C3131;
+}
+
 nav {
   /* background-color: #ff6e40; */
   background-color: #FFFEFE;
@@ -70,13 +86,6 @@ nav {
   justify-content: flex-start;
   margin-top: 30px;
   margin-bottom: 20px;
-}
-
-.link-cont {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 30px;
 }
 
 .seemore {

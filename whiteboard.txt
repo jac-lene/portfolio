@@ -4,7 +4,6 @@ MVPs
 - All links are functional and work
 - Mobile AND Desktop friendly (works on all devices)
 - Include email address (consider not linking to an email client)
-
     DONE
     - Customized URL
     - Your name + Job Title is clear at the top
@@ -34,8 +33,9 @@ Home
 Work
 - Responsive
 - Get images added
-- Link to see more pages
-- Design button for see more
+    DONE
+    - Design button for see more
+    - Link to see more pages
 
 See More pages
 - Responsive
