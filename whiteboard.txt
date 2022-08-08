@@ -3,30 +3,33 @@ PORTFOLIO SITE
 MVPs
 - All links are functional and work
 - Mobile AND Desktop friendly (works on all devices)
-- Your name + Job Title is clear at the top
-- Navigation is clear with links to Work/Projects, About Me, and   Contact sections (either anchors down to the section on the same page, or links to a new page)
-- All links that link outside your website open in a new tab (Ex: GitHub and LinkedIn)
-- Open links to downloads in new tab or download automatically
-- Contact Info displayed as a section or separate page, included as a section on a single page, or on another page altogether.
 - Include email address (consider not linking to an email client)
-- Link to LinkedIn that opens in a new tab
-- Link to GitHub that opens in a new tab
-- "About Me" displayed as a section or separate page, Included as a section on a single page, or on another page altogether.
+
     DONE
     - Customized URL
+    - Your name + Job Title is clear at the top
+    - Navigation is clear with links to Work/Projects, About Me, and   Contact sections (either anchors down to the section on the same page, or links to a new page)
+    - Link to LinkedIn that opens in a new tab
+    - Link to GitHub that opens in a new tab
+    - "About Me" displayed as a section or separate page, Included as a section on a single page, or on another page altogether.
+    - All links that link outside your website open in a new tab (Ex: GitHub and LinkedIn)
+    - Open links to downloads in new tab or download automatically
+    - Contact Info displayed as a section or separate page, included as a section on a single page, or on another page altogether.
 
 Stretch Goals: 
 - Scrolling site
 
 Navigation
-- Need About 
-- Need Contact
 - Maybe add footer
 - Links to Social Media
+    DONE
+    - Need About 
+    - Need Contact
 
 Home
 - Responsive
 - more styling
+- change out carousel images
 
 Work
 - Responsive

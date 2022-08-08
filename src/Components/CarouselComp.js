@@ -4,6 +4,7 @@ import Image from 'react-bootstrap/Image'
 import Raccoon from '../Images/rac.png'
 import Gyst from '../Images/gyst.png'
 import Sock from '../Images/Work/sock.png'
+import Align from '../Images/Work/align.png'
 
 
 function CarouselComp() {
@@ -25,8 +26,19 @@ function CarouselComp() {
         <div className='carousel'> 
         <img
           className="d-block w-100"
-          src={Gyst}
+          src={Align}
           alt="Second slide"
+          style={{height:'100%', width:'auto', objectFit:'contain'}}
+        />
+        </div>
+       
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className='carousel'> 
+        <img
+          className="d-block w-100"
+          src={Gyst}
+          alt="Third slide"
           style={{height:'100%', width:'auto', objectFit:'contain'}}
         />
         </div>
@@ -37,7 +49,7 @@ function CarouselComp() {
         <img
           className="d-block w-100"
           src={Raccoon}
-          alt="Third slide"
+          alt="Fourth slide"
           style={{height:'100%', width:'auto', objectFit:'contain'}}
         />
         </div>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Image } from 'react-bootstrap'
 
 import Sock from '../Images/Work/sock.png'
+import Align from '../Images/Work/align.png'
 
 function Work() {
   return (
@@ -19,27 +20,27 @@ function Work() {
                 <Link to='/work/socklab'><h4>See More</h4></Link>
             </div>
 
-            <Image src={Sock} className='work-sockimg' rounded fluid/>
+            <Image src={Sock} className='work-sockimg' rounded/>
         </div>
 
 <div className='spacer'></div>
 
-     <div className='work-cont'>
+     <div className='work-cont' style={{flexDirection:'row'}}>
             <div className='work-name'>
-                <h3 className='work-title'>Aligned</h3>
+                <h3 className='work-title'>Align</h3>
                 <h4 className='work-subtitle'>React and Django</h4>
                 <br/>
                 <button>See More</button>
             </div>
 
-            <div className='work-img'>
+            <Image src={Align} className='work-alignimg' rounded/>
 
-            </div>
+
         </div>
 
 <div className='spacer'></div>
 
-     <div className='work-cont'>
+     <div className='work-cont' >
             <div className='work-name'>
                 <h3 className='work-title'>Gyst</h3>
                 <h4 className='work-subtitle'>Express and MongoDB</h4>
