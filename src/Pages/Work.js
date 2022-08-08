@@ -30,7 +30,7 @@ function Work() {
                 <h3 className='work-title'>Align</h3>
                 <h4 className='work-subtitle'>React and Django</h4>
                 <br/>
-                <button>See More</button>
+                <Link to='/work/align'><h4>See More</h4></Link>
             </div>
 
             <Image src={Align} className='work-alignimg' rounded/>

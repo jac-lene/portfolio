@@ -35,5 +35,7 @@ Work
 - Responsive
 - Get images added
 - Link to see more pages
+- Design button for see more
 
 See More pages
+- Responsive
