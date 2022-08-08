@@ -83,7 +83,7 @@ nav {
   height: 700px;
 }
 
-.sock-txt {
+.sock-txt, .align-txt {
   margin: 0 auto;
   width: 70vw;
   text-align: justify;

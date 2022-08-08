@@ -2,7 +2,8 @@ import React from 'react'
 import { Image } from 'react-bootstrap'
 
 import Sock from '../Images/Work/sock.png'
-import Patt from '../Images/Work/patt.png'
+import Patt from '../Images/Work/sock/pattern.png'
+import Edit from '../Images/Work/sock/edit.png'
 
 function Socklab() {
   return (
@@ -34,7 +35,8 @@ function Socklab() {
 
       <div className='spacer'></div>
       <Image src={Patt} rounded className='sock-img'/>
-
+      <div className='spacer'></div>
+      <Image src={Edit} rounded className='sock-img'/>
 
       <div className='spacer'></div>
       <div className='spacer'></div>

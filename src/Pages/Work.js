@@ -17,7 +17,7 @@ function Work() {
                 <h3 className='work-title'>SockLab Customizer</h3>
                 <h4 className='work-subtitle'>React and Django</h4>
                 <br/>
-                <Link to='/work/socklab'><h4>See More</h4></Link>
+                <Link to='/work/socklab'><h4 className='seemore'>See More</h4></Link>
             </div>
 
             <Image src={Sock} className='work-sockimg' rounded/>
@@ -30,7 +30,7 @@ function Work() {
                 <h3 className='work-title'>Align</h3>
                 <h4 className='work-subtitle'>React and Django</h4>
                 <br/>
-                <Link to='/work/align'><h4>See More</h4></Link>
+                <Link to='/work/align'><h4 className='seemore'>See More</h4></Link>
             </div>
 
             <Image src={Align} className='work-alignimg' rounded/>
@@ -45,7 +45,7 @@ function Work() {
                 <h3 className='work-title'>Gyst</h3>
                 <h4 className='work-subtitle'>Express and MongoDB</h4>
                 <br/>
-                <button>See More</button>
+                <Link to='/work/gyst'><h4 className='seemore'>See More</h4></Link>
             </div>
 
             <div className='work-img'>
@@ -61,7 +61,7 @@ function Work() {
                 <h3 className='work-title'>Raccoons</h3>
                 <h4 className='work-subtitle'>Vanilla Javascript</h4>
                 <br/>
-                <Link to='/work/socklab'><h4>See More</h4></Link>
+                <Link to='/work/raccoons'><h4 className='seemore'>See More</h4></Link>
             </div>
 
             <div className='work-img'>

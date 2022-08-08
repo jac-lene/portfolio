@@ -39,3 +39,4 @@ Work
 
 See More pages
 - Responsive
+- maybe record video for socklab
