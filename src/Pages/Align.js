@@ -13,7 +13,7 @@ function Align() {
       <div className='spacer'></div>
 
 
-      <h1>Align: Horoscope Dating</h1>
+      <h1>Align Astrological Dating</h1>
       <h4>Front End React Developer</h4>
       <h4>Project managed a team of three</h4>
       <br/>

@@ -7,11 +7,7 @@ function NavBar() {
         <nav>
             <div className='link-cont'>
               <Link to='/'><h5>home</h5></Link>
-       
               <Link to='/work'><h5>work</h5></Link>
-                
-            
-              
               <Link to='/about'><h5>about</h5></Link>
               <Link to='/contact'><h5>contact</h5></Link>
             </div>
