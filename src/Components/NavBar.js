@@ -6,10 +6,10 @@ function NavBar() {
     <div>
         <nav>
             <div className='link-cont'>
-              <Link to='/'><h5>home</h5></Link>
-              <Link to='/work'><h5>work</h5></Link>
-              <Link to='/about'><h5>about</h5></Link>
-              <Link to='/contact'><h5>contact</h5></Link>
+              <Link to='/'><h5 className='nav-link'>home</h5></Link>
+              <Link to='/work'><h5 className='nav-link'>work</h5></Link>
+              <Link to='/about'><h5 className='nav-link'>about</h5></Link>
+              <Link to='/contact'><h5 className='nav-link'>contact</h5></Link>
             </div>
         </nav>
     </div>
