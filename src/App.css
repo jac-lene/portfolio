@@ -1,10 +1,17 @@
+/* #1B34ED blue */
+/* #0e5540 green */
+
 a {
   text-decoration: none;
   color: #707d7d;
+  /* color:#FFFEFE; */
 }
 
 a:hover {
   color: #2C3131;
+  /* color: #0e5540; */
+  /* color: #1B34ED; */
+  /* color: #abd1d1; */
 }
 
 .about-cont {
@@ -36,6 +43,7 @@ a:hover {
   /* text-align: center; */
   /* background-color: #ff6c6c; */
   background-color: #FFFEFE;
+   /* background-color: #0e5540; */
   color: #2C3131;
 }
 
@@ -43,6 +51,7 @@ a:hover {
   width:600px;
   height:500px;
   filter: drop-shadow(0px 10px 10px rgb(200, 200, 200)); 
+  /* filter: drop-shadow(0px 10px 10px #072c21);  */
 }
 
 .center {
@@ -59,18 +68,28 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
+  /* border: 2px solid black; */
+  border-radius: 25px;
+  /* padding: 40px; */
+  background-color: #FFFEFE;
+  /* background-color: #0e5540; */
+  /* color:#FFFEFE; */
 }
 
 .link-cont {
+  width: 90vw;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 30px;
 }
 
 .message {
   display: inline;
   color: #707d7d;
+  cursor: pointer;
 }
   
 .message:hover {
@@ -78,14 +97,15 @@ a:hover {
 }
 
 nav {
-  /* background-color: #ff6e40; */
-  background-color: #FFFEFE;
+  /* background-color: #FFFEFE; */
+  /* background-color: #1B34ED; */
   color: #2C3131;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  /* border-bottom: 20px dotted #1B34ED; */
+  height: 90px;
+  width: 100vw;
+  /* filter: drop-shadow(0px 20px 10px rgb(230, 229, 229));  */
 }
 
 .seemore {

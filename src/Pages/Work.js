@@ -55,7 +55,7 @@ function Work() {
 
 <div className='spacer'></div>
 
-     <div className='work-cont'>
+     <div className='work-cont' style={{flexDirection:'row'}}>
             <div className='work-name'>
                 <h3 className='work-title'>Raccoons</h3>
                 <h4 className='work-subtitle'>Vanilla Javascript</h4>

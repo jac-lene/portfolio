@@ -32,7 +32,7 @@ function Contact() {
             <h4>I'm currently seeking full time work and freelance opportunities.</h4>
             <h4>Send me a <div onClick={() => {setShow(!show); setCopied(false)}} className='message'>message</div>!</h4> 
             
-            {show && <div> <h4>Tap to copy: <div className='message' ref={target} onClick={copy}>{text}</div> </h4> </div>}
+            {show && <div> <h4><div className='message' ref={target} onClick={copy}>{text}</div> </h4> </div>}
 
             <Overlay target={target.current} show={copied} placement="right"> 
         {({ placement, arrowProps, show: _show, popper, ...props }) => (
