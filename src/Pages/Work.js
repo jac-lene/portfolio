@@ -4,6 +4,8 @@ import { Image } from 'react-bootstrap'
 
 import Sock from '../Images/Work/sock.png'
 import Align from '../Images/Work/align.png'
+import Gyst from '../Images/Work/gyst/mockup.png'
+import Racc from '../Images/Work/raccoons/mockup.png'
 
 function Work() {
   return (
@@ -47,9 +49,8 @@ function Work() {
                 <Link to='/work/gyst'><h4 className='seemore'>See More</h4></Link>
             </div>
 
-            <div className='work-img'>
+            <Image src={Gyst} className='work-gystimg' rounded/>
 
-            </div>
         </div>
 
 
@@ -63,9 +64,7 @@ function Work() {
                 <Link to='/work/raccoons'><h4 className='seemore'>See More</h4></Link>
             </div>
 
-            <div className='work-img'>
-
-            </div>
+            <Image src={Racc} className='work-raccimg' rounded/>
         </div>
 
         <div className='spacer'></div>
