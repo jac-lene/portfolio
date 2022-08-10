@@ -1,5 +1,8 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import Ali from '../Images/Work/align.png'
 import img1 from '../Images/Work/align/img1.png'
@@ -38,12 +41,23 @@ function Align() {
 
       <div className='align-cont'>
 
-      <Image src={img3} rounded fluid className='sock-img'/>
+      {/* <Image src={img3} rounded fluid className='sock-img'/>
       <div className='spacer'></div>
       <Image src={img1} rounded fluid className='sock-img' style={{height:'400px'}}/>
       <div className='spacer'></div>
       <Image src={img2} rounded fluid className='sock-img'/>
-
+       */}
+      
+      <Container className='gyst-grid'>
+      <Row>
+      <Col>          
+          <Image src={img3} rounded className='sock-img' style={{height:'350px'}}/>
+        </Col>
+        <Col>          
+          <Image src={img2} rounded className='sock-img' style={{height:'350px'}}/>
+        </Col>
+      </Row>
+    </Container>
       </div>
       
 
