@@ -30,12 +30,15 @@ function Socklab() {
       <div className='spacer'></div>
       
       <Image src={Sock} rounded className='sock-img'/>
+
+      <div className='spacer'></div>
       <div className='spacer'></div>
 
         <h4 className='sock-txt'>SockLab is a design experience that allows the user to customize a sock knitting pattern using a visual laboratory inspired by the custom design experience of shoe brands like Nike and Vans. 
           <br/> <br/>
         Designed and engineered over a 3 week period, SockLab is a fully responsive, full stack MERN website with full CRUD functionality and RESTful Django framework. Developed with React frontend, Django backend, Postgres SQL and bespoke UI with CSS styling.</h4>
 
+      <div className='spacer'></div>
       <div className='spacer'></div>
 
       {/* <Image src={Patt} rounded className='sock-img'/>

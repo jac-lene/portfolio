@@ -33,10 +33,13 @@ function Align() {
       <div className='spacer'></div>
       
       <Image src={Ali} rounded fluid className='sock-img'/>
+
+      <div className='spacer'></div>
       <div className='spacer'></div>
 
         <h4 className='align-txt'>Together as a team of 3, we developed online dating and personalized horoscope platform inspired by our own desires to connect with others in new ways. As the stars align, so can users on our Align App for a dose of daily love horoscopes and online dating.</h4>
 
+      <div className='spacer'></div>
       <div className='spacer'></div>
 
       <div className='align-cont'>
