@@ -25,14 +25,16 @@ a {
   text-decoration: none;
   color: #707d7d;
   /* color:#FFFEFE; */
-
   /* color:#1CB2CC; */
+  color:#516e44;
 }
 
 a:hover {
   /* color: #2C3131; */
-  color:#1CB2CC;
+  /* color:#1CB2CC; */
   /* color:#5FBD4D; */
+  /* color:#3F5535; */
+  color:#5FBD4D;
 }
 
 .about-cont {
@@ -79,13 +81,6 @@ h1, h2, .work-title {
   font-family: 'Rakkas';
 }
 
-.nav-link {
-  font-size: 25px;
-  /* font-size: 22px; */
-  /* color:#e3e3e3; */
-  color:#ebf6fe;
-}
-
 body {
   /* background-color: #a6d1f1; */
   background-color:#FFFEFE;
@@ -102,7 +97,6 @@ body {
 
 .center {
   width: 90vw;
-  height: 90vh;
   margin: 0 auto;
 }
 
@@ -123,6 +117,7 @@ body {
   /* background-color: #FFFEFE; */
   /* background-color: #0e5540; */
   /* color:#FFFEFE; */
+  height: 90vh;
 }
 
 .link-cont {
@@ -136,12 +131,29 @@ body {
 
 .message {
   display: inline;
-  color: #707d7d;
+  /* color: #707d7d; */
+  color:#516e44;
   cursor: pointer;
 }
   
 .message:hover {
-    color: #2C3131;
+    /* color: #2C3131; */
+    /* color:#3F5535; */
+    color:#5FBD4D;
+}
+
+.nav-link {
+  font-size: 25px;
+  /* font-size: 22px; */
+  /* color:#e3e3e3; */
+  /* color:#ebf6fe; */
+  color:#f4f4ed;
+}
+
+.nav-link:hover {
+  /* color:#e1ff00; */
+  /* color:#A6D1F1; */
+  color:#8C9356;
 }
 
 nav {
@@ -149,7 +161,6 @@ nav {
   /* background-color: #1B34ED; */
   /* background-color: #0e5540; */
   background-color: #3F5535;
-  color: #2C3131;
   padding-top: 30px;
   padding-bottom: 60px;
   /* border-bottom: 20px dotted #1B34ED; */

@@ -3,7 +3,6 @@ PORTFOLIO SITE
 MVPs
 - All links are functional and work
 - Mobile AND Desktop friendly (works on all devices)
-- Include email address (consider not linking to an email client)
     DONE
     - Customized URL
     - Your name + Job Title is clear at the top
@@ -14,6 +13,7 @@ MVPs
     - All links that link outside your website open in a new tab (Ex: GitHub and LinkedIn)
     - Open links to downloads in new tab or download automatically
     - Contact Info displayed as a section or separate page, included as a section on a single page, or on another page altogether.
+    - Include email address (consider not linking to an email client)
 
 Stretch Goals: 
 - Scrolling site
