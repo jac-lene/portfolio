@@ -52,7 +52,7 @@ a:hover {
   align-items: center;
 }
 
-.about-grid {
+.about-grid, .gyst-grid {
   /* border: 2px solid black; */
   text-align: center;
 }

@@ -28,7 +28,7 @@ function Work() {
 
      <div className='work-cont' style={{flexDirection:'row'}}>
             <div className='work-name'>
-                <h3 className='work-title'>Align</h3>
+                <h3 className='work-title'>Align Astro Dating</h3>
                 <h4 className='work-subtitle'>React and Django</h4>
                 <br/>
                 <Link to='/work/align'><h4 className='seemore'>See More</h4></Link>
@@ -43,7 +43,7 @@ function Work() {
 
      <div className='work-cont' >
             <div className='work-name'>
-                <h3 className='work-title'>Gyst</h3>
+                <h3 className='work-title'>GYST Habit Tracker</h3>
                 <h4 className='work-subtitle'>Express and MongoDB</h4>
                 <br/>
                 <Link to='/work/gyst'><h4 className='seemore'>See More</h4></Link>
@@ -58,7 +58,7 @@ function Work() {
 
      <div className='work-cont' style={{flexDirection:'row'}}>
             <div className='work-name'>
-                <h3 className='work-title'>Raccoons</h3>
+                <h3 className='work-title'>Raccoons Game</h3>
                 <h4 className='work-subtitle'>Vanilla Javascript</h4>
                 <br/>
                 <Link to='/work/raccoons'><h4 className='seemore'>See More</h4></Link>
