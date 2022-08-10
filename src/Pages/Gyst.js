@@ -6,7 +6,6 @@ import Col from 'react-bootstrap/Col';
 
 import mockup from '../Images/Work/gyst/mockup.png'
 import mock2 from '../Images/Work/gyst/mockup1.png'
-import entry from '../Images/Work/gyst/entry.png'
 import entry2 from '../Images/Work/gyst/entry2.png'
 import attrib from '../Images/Work/gyst/attributions.png'
 import home from '../Images/Work/gyst/home.png'
@@ -52,17 +51,15 @@ function Gyst() {
           <Image src={signup} rounded className='sock-img' style={{height:'400px'}}/>
         </Col>
         <Col>          
-          <Image src={entry} rounded className='sock-img' style={{height:'400px'}}/>
+          <Image src={entry2} rounded className='sock-img' style={{height:'400px'}}/>
         </Col>
         <Col>          
-          <Image src={entry2} rounded className='sock-img' style={{height:'400px'}}/>
+          <Image src={attrib} rounded className='sock-img' style={{height:'400px'}}/>
         </Col>
       </Row>
     </Container>
 
     </div>
-    
-
 
     <div className='spacer'></div>
     <div className='spacer'></div>
