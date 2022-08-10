@@ -1,10 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image from 'react-bootstrap/Image'
+import { Link } from 'react-router-dom'
 
-import Raccoon from '../Images/rac.png'
-import Gyst from '../Images/gyst.png'
+import Racc from '../Images/Work/raccoons/mockup.png'
+import Gyst from '../Images/Work/gyst/mockup.png'
 import Sock from '../Images/Work/sock.png'
 import Align from '../Images/Work/align.png'
+
 
 
 function CarouselComp() {
@@ -12,7 +13,7 @@ function CarouselComp() {
   return (
     <Carousel variant='dark'>
       <Carousel.Item>
-        <div className='carousel'>
+        <Link to='/work/socklab'><div className='carousel'>
             <img
             className="d-block w-100"
             src={Sock}
@@ -20,10 +21,10 @@ function CarouselComp() {
             style={{height:'100%', width:'auto', objectFit:'contain'}}
             />
         </div>
-       
+        </Link>
       </Carousel.Item>
       <Carousel.Item>
-        <div className='carousel'> 
+        <Link to='/work/align'><div className='carousel'> 
         <img
           className="d-block w-100"
           src={Align}
@@ -31,10 +32,10 @@ function CarouselComp() {
           style={{height:'100%', width:'auto', objectFit:'contain'}}
         />
         </div>
-       
+        </Link>
       </Carousel.Item>
       <Carousel.Item>
-        <div className='carousel'> 
+        <Link to='/work/gyst'><div className='carousel'> 
         <img
           className="d-block w-100"
           src={Gyst}
@@ -42,17 +43,18 @@ function CarouselComp() {
           style={{height:'100%', width:'auto', objectFit:'contain'}}
         />
         </div>
-       
+        </Link>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='carousel'>
+      <Link to='/work/raccoons'><div className='carousel'>
         <img
           className="d-block w-100"
-          src={Raccoon}
+          src={Racc}
           alt="Fourth slide"
           style={{height:'100%', width:'auto', objectFit:'contain'}}
         />
         </div>
+        </Link>
       </Carousel.Item>
     </Carousel>
   );
