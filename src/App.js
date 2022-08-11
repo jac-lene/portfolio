@@ -25,6 +25,7 @@ function App() {
       <div className='App'>
         <Routes>
           <Route path="/portfolio" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/work/socklab" element={<Socklab />} />
           <Route path="/work/align" element={<Align />} />
