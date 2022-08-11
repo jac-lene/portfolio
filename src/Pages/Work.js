@@ -26,7 +26,7 @@ function Work() {
 
 <div className='spacer'></div>
 
-     <div className='work-cont' style={{flexDirection:'row'}}>
+     <div className='work-cont left'>
             <div className='work-name'>
                 <h3 className='work-title'>Align Astro Dating</h3>
                 <h4 className='work-subtitle'>React and Django</h4>
@@ -56,7 +56,7 @@ function Work() {
 
 <div className='spacer'></div>
 
-     <div className='work-cont' style={{flexDirection:'row'}}>
+     <div className='work-cont left'>
             <div className='work-name'>
                 <h3 className='work-title'>Raccoons Game</h3>
                 <h4 className='work-subtitle'>Vanilla Javascript</h4>

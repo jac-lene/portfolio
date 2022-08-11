@@ -11,6 +11,7 @@ import Edit from '../Images/Work/sock/edit.png'
 function Socklab() {
   return (
     <div className='center'>
+      <div className='detail-cont'>
       <div className='spacer'></div>
 
 
@@ -48,16 +49,18 @@ function Socklab() {
       <Container className='gyst-grid'>
       <Row>
       <Col>          
-          <Image src={Patt} rounded className='sock-img' style={{height:'325px'}}/>
+          <Image src={Patt} rounded className='grid-img'/>
         </Col>
         <Col>          
-          <Image src={Edit} rounded className='sock-img' style={{height:'325px'}}/>
+          <Image src={Edit} rounded className='grid-img'/>
         </Col>
       </Row>
     </Container>
 
       <div className='spacer'></div>
       <div className='spacer'></div>
+
+      </div>
     </div>
   )
 }

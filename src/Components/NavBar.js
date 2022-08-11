@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <div>
         <nav>
-            <div className='link-cont'>
+            <div className='navlink-cont'>
               <Link to='/'><h5 className='nav-link'>home</h5></Link>
               <Link to='/work'><h5 className='nav-link'>work</h5></Link>
               <Link to='/about'><h5 className='nav-link'>about</h5></Link>

@@ -14,7 +14,7 @@ import signup from '../Images/Work/gyst/signup.png'
 function Gyst() {
   return (
     <div className='center'>
-
+<div className='detail-cont'>
     <div className='spacer'></div>
 
 
@@ -45,16 +45,16 @@ function Gyst() {
     <Container className='gyst-grid'>
       <Row>
         <Col>
-          <Image src={home} rounded className='sock-img' style={{height:'400px'}}/>
+          <Image src={home} rounded className='grid-img'/>
         </Col>
         <Col>          
-          <Image src={signup} rounded className='sock-img' style={{height:'400px'}}/>
+          <Image src={signup} rounded className='grid-img'/>
         </Col>
         <Col>          
-          <Image src={entry2} rounded className='sock-img' style={{height:'400px'}}/>
+          <Image src={entry2} rounded className='grid-img'/>
         </Col>
         <Col>          
-          <Image src={attrib} rounded className='sock-img' style={{height:'400px'}}/>
+          <Image src={attrib} rounded className='grid-img'/>
         </Col>
       </Row>
     </Container>
@@ -63,7 +63,7 @@ function Gyst() {
 
     <div className='spacer'></div>
     <div className='spacer'></div>
-   
+    </div>
   </div>
   )
 }

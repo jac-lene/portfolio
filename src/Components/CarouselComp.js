@@ -11,8 +11,8 @@ import Align from '../Images/Work/align.png'
 function CarouselComp() {
 
   return (
-    <Carousel variant='dark'>
-      <Carousel.Item>
+    <Carousel className='car-item' variant='dark'>
+      <Carousel.Item >
         <Link to='/work/socklab'><div className='carousel'>
             <img
             className="d-block w-100"

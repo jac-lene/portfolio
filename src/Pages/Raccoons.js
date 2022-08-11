@@ -12,7 +12,7 @@ import fullrac from '../Images/Work/raccoons/fullrac.png'
 function Raccoons() {
   return (
     <div className='center'>
-
+    <div className='detail-cont'>
     <div className='spacer'></div>
 
 
@@ -43,10 +43,10 @@ function Raccoons() {
     <Container className='gyst-grid'>
       <Row>
       <Col>          
-          <Image src={fullrac} rounded className='sock-img' style={{height:'400px'}}/>
+          <Image src={fullrac} rounded className='grid-img'/>
         </Col>
         <Col>          
-          <Image src={win} rounded className='sock-img' style={{height:'400px'}}/>
+          <Image src={win} rounded className='grid-img'/>
         </Col>
       </Row>
     </Container>
@@ -55,7 +55,7 @@ function Raccoons() {
 
     <div className='spacer'></div>
     <div className='spacer'></div>
-   
+    </div>
   </div>
   )
 }

@@ -12,7 +12,7 @@ import img3 from '../Images/Work/align/img3.png'
 function Align() {
   return (
     <div className='center'>
-
+<div className='detail-cont'>
       <div className='spacer'></div>
 
 
@@ -54,10 +54,10 @@ function Align() {
       <Container className='gyst-grid'>
       <Row>
       <Col>          
-          <Image src={img3} rounded className='sock-img' style={{height:'350px'}}/>
+          <Image src={img3} rounded className='grid-img'/>
         </Col>
         <Col>          
-          <Image src={img2} rounded className='sock-img' style={{height:'350px'}}/>
+          <Image src={img2} rounded className='grid-img'/>
         </Col>
       </Row>
     </Container>
@@ -68,7 +68,7 @@ function Align() {
       <div className='spacer'></div>
       <div className='spacer'></div>
       
-      
+      </div>
     </div>
   )
 }

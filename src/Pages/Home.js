@@ -12,7 +12,7 @@ function Home() {
 
           <div className='hello'>
             <h1>Hello! I'm Jaclene.</h1> 
-            <h3>Software engineer, puzzle solver, knitter, builder, creative. <br/><br/> I'd love to work with you!</h3>
+            <h4>Software engineer, puzzle solver, knitter, builder, creative. <br/><br/> I'd love to work with you!</h4>
           </div>
 
         <div>
