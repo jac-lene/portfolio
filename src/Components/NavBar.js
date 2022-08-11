@@ -16,8 +16,8 @@ function NavBar() {
               <Link to='/contact'><h5 className='nav-link'>contact</h5></Link>
             </div>
             <div className='social-cont'>
-              <img src={github} alt='github' className='social'/>
-              <img src={linked} alt='linkedin' className='social'/>
+            <a href='https://github.com/jac-lene' target="_blank" rel="noreferrer noopener"><img src={github} alt='github' className='social'/></a>
+              <a href='https://www.linkedin.com/in/jac-lene/' target="_blank" rel="noreferrer noopener"><img src={linked} alt='linkedin' className='social'/></a>
             </div>
             </div>
         </nav>
