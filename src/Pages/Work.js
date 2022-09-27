@@ -12,7 +12,7 @@ function Work() {
     <div className='center'>
 
             <div className='spacer'></div>
-
+            <div className='spacer'></div>
         <div className='work-cont'>
             <div className='work-name'>
                 <h3 className='work-title'>SockLab Customizer</h3>

@@ -14,6 +14,7 @@ function Align() {
     <div className='center'>
 <div className='detail-cont'>
       <div className='spacer'></div>
+      <div className='spacer'></div>
 
 
       <h1>Align Astrological Dating</h1>

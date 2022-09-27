@@ -13,6 +13,7 @@ function Socklab() {
     <div className='center'>
       <div className='detail-cont'>
       <div className='spacer'></div>
+      <div className='spacer'></div>
 
 
       <h1>Socklab</h1>
@@ -35,7 +36,7 @@ function Socklab() {
     
       <div className='spacer'></div>
       
-      <Image src={Sock} rounded className='sock-img'/>
+      <Image src={Sock} fluid rounded className='sock-img'/>
 
       <div className='spacer'></div>
       <div className='spacer'></div>

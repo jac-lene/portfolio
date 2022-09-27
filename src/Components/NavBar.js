@@ -7,6 +7,7 @@ import linked from '../Images/icons/linked.png'
 function NavBar() {
   return (
     <div>
+       <div className='nav-shadow'></div>
         <nav>
           <div className='nav-flex'>
             <div className='navlink-cont'>
@@ -20,8 +21,11 @@ function NavBar() {
               <a href='https://www.linkedin.com/in/jac-lene/' target="_blank" rel="noreferrer noopener"><img src={linked} alt='linkedin' className='social'/></a>
             </div>
             </div>
+
+          
+          
         </nav>
-    </div>
+        </div>
   )
 }
 
