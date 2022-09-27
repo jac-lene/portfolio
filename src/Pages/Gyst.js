@@ -21,6 +21,11 @@ function Gyst() {
     <h1>GYST Habit Tracker</h1>
     <h4>Express and MongoDB</h4>
     <br/>
+    <h5>Try it {" "}
+      <a href='https://project-2-gyst.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+        here
+        </a>
+      </h5>
     <h5>Check out my code {" "}
       <a href='https://github.com/jac-lene/Gyst-Habit-Tracker' target="_blank" rel="noreferrer noopener">
       here

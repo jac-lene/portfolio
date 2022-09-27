@@ -19,6 +19,11 @@ function Raccoons() {
     <h1>Raccoons</h1>
     <h4>Vanilla Javascript</h4>
     <br/>
+    <h5>Try it {" "}
+      <a href='https://pages.git.generalassemb.ly/jac-lene/project1/' target="_blank" rel="noreferrer noopener">
+        here
+        </a>
+      </h5>
     <h5>Check out my code {" "}
       <a href='https://github.com/jac-lene/Raccoons-Game' target="_blank" rel="noreferrer noopener">
       here

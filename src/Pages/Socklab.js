@@ -18,6 +18,11 @@ function Socklab() {
       <h1>Socklab</h1>
       <h4>Full Stack Developer, React and Django</h4>
       <br/>
+      <h5>Try it {" "}
+      <a href='https://socklab-customizer.netlify.app/' target="_blank" rel="noreferrer noopener">
+        here
+        </a>
+      </h5>
       <h5>Check out my code: {" "}
         <a href='https://github.com/jac-lene/Sock-Lab-Frontend' target="_blank" rel="noreferrer noopener">
         Front
